@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    width: 90%;
+    margin: auto;
+}
+
+.top-haeder {
+    width: 100%;
+    height: 150px;
+    background-color: #0099FF;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.box-one {
+    height: 100px;
+    width: 60px;
+    border: 6px solid wheat;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 0px 0px 20px 20px;
+    position: relative;
+    border-top: none;
+}
+
+.box-one::after {
+    content: '';
+    height: 40px;
+    width: 20px;
+    border: 6px solid wheat;
+    position: absolute;
+    left: 60px;
+    top: 10px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.box-one::before {
+    content: '';
+    height: 60px;
+    width: 50px;
+    border: 6px solid wheat;
+    position: absolute;
+    border-radius: 0px 0px 20px 15px;
+    top: 30px;
+}
+
+.top-header-manu-ber {
+    float: right;
+    margin-top: 0px;
+}
+
+.top-header-menu-ber-item {
+    margin-left: 500px;
+    text-decoration: none;
+    word-spacing: 20px;
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 20px 10px;
+}
+
+.top-header-menu-ber-item a {
+    text-decoration: none;
+    padding: 10px 10px;
+    margin-top: 20px;
+}
+
+.top-header-menu-ber-item :hover {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: dodgerblue;
+    color: crimson;
+}
+
+.top-header-manu-ber-item2 {
+    margin-right: 30px;
+    padding: 10px 10px;
+}
+
+.top-header-manu-ber-item2 a {
+    text-decoration: none;
+    padding: 10px 10px;
+    text-transform: uppercase;
+}
+
+.top-header-manu-ber-item2 :hover {
+    color: red;
+    background-color: gold;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.bottom-header {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    position: relative;
+}
+
+.bottom-header-text1 {
+    width: 60%;
+}
+
+.bottom-header-text1 h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: 'Pacifico', cursive;
+    color: dodgerblue;
+}
+
+.bottom-header-text1 p {
+    color: blue;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+.btm-link {
+    padding-top: 40px;
+}
+
+.btm-link a {
+    text-decoration: none;
+    font-size: 25px;
+    background-color: blueviolet;
+    padding: 10px 40px;
+    font-family: 'Lobster', cursive;
+    border-radius: 20px;
+    transition: .8s;
+    color: black;
+}
+
+.btm-link a:hover {
+    background-color: blue;
+    color: wheat;
+    transition: .8s;
+}
+
+.btm-icon ul {
+    position: absolute;
+    right: 200px;
+    top: 0;
+}
+
+.btm-icon ul li {
+    list-style: none;
+}
+
+.btm-icon ul li a {
+    font-size: 50px;
+    color: dodgerblue;
+}
+
+.facebook a i {
+    color: blue;
+    transition: .4s;
+}
+
+.facebook a i:hover {
+    color: #2b406b;
+    transform: translate(-50px);
+    font-size: 50px;
+    transition: .4s;
+}
+
+.massenger a i {
+    color: blue;
+    transition: .4s;
+}
+
+.massenger a i:hover {
+    color: #0099FF;
+    transform: translate(50px);
+    font-size: 50px;
+    transition: .4s;
+}
+
+.linkdin a i {
+    color: blue;
+    transition: .4s;
+}
+
+.linkdin a i:hover {
+    color: #313335;
+    transform: translate(-50px);
+    font-size: 50px;
+    transition: .4s;
+}
+
+.ins a i {
+    color: blue;
+    transition: .4s;
+}
+
+.ins a i:hover {
+    color: #bc2a8d;
+    transform: translate(50px);
+    font-size: 50px;
+    transition: .4s;
+}
+
+.what a i {
+    color: blue;
+    transition: .4s;
+}
+
+.what a i:hover {
+    color: #25D366;
+    transform: translate(-50px);
+    font-size: 50px;
+    transition: .4s;
+}
+
+.pin a i {
+    color: blue;
+    transition: .4s;
+}
+
+.pin a i:hover {
+    color: red;
+    transform: translate(50px);
+    font-size: 50px;
+    transition: .4s;
+}
+
+.git a i {
+    color: blue;
+    transition: .4s;
+}
+
+.git a i:hover {
+    color: rgb(46, 44, 44);
+    transform: translate(-50px);
+    font-size: 50px;
+    transition: .4s;
+}
+
+.twit a i {
+    color: blue;
+    transition: .4s;
+}
+
+.twit a i:hover {
+    color: #00acee;
+    transform: translate(50px);
+    font-size: 50px;
+    transition: .4s;
+}
